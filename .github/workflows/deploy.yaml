@@ -3,7 +3,9 @@ name: Toolkit Deploy
 on:
   push:
     branches:
-      - main
+      # - main
+    paths:
+      - 'config.prod.yaml'
 
 jobs:
   build-modules:
