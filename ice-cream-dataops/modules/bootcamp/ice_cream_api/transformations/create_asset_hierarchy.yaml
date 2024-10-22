@@ -1,8 +1,8 @@
-externalId: 'create_asset_hierarchy'
+externalId: create_asset_hierarchy
 dataSetExternalId: {{ icapi_ds_external_id}}
-name: 'create_asset_hierarchy'
+name: create_asset_hierarchy
 destination:
-  type: 'asset_hierarchy'
+  type: asset_hierarchy
 ignoreNullFields: true
 isPublic: true
 conflictMode: upsert
