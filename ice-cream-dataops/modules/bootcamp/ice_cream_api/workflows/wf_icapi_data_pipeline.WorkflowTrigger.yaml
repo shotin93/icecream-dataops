@@ -9,3 +9,4 @@ workflowVersion: '1'
 authentication:
   clientId: {{ IDP_CLIENT_ID }}
   clientSecret: {{ IDP_CLIENT_SECRET }}
+  
